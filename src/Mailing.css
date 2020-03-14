@@ -1,0 +1,189 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#contenedor{   /*se coloca el tamaño del primer div*/
+  
+    margin:  auto;
+    padding: 0%;
+    width: 868px;
+    height: 920px;
+    background-color:#003791;
+
+
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+#contenedor1{   /*se crea para el contenedor de los logos*/
+  
+  width: 100%;
+  height: 5.4%;
+  background-image: url("imagenes/fondo.jpg")
+  
+
+}
+
+#contenedor2{   /*se crea para el contenedor de la imagen de descuento*/
+  
+  width: 100%;
+  height: 65.2%;
+
+}
+#titulo{ /* se coloca para el logo de la derecha */
+  float: right;
+  padding-right: 3%;
+}
+
+#imagen{ /*se coloca para la imagen mostrando los descuentos  */
+  padding-left: 4%; 
+  padding-top: 7%;
+  width: 779px;
+  height: 511px;
+}
+#logo{ /* se coloca para el logo de Ps4 */
+  width:90px;
+  height:50px;
+  padding-left: 6%;
+  
+}
+
+#contenedor3{   /*se coloca para la linea en blanco*/
+
+  width: 100%;
+  height: 7%;
+  background:linear-gradient(#003791, white, #003791);
+}
+
+#contenedor4{  /* se crea para el contenedor de los 3 juegos */
+  width:  100%;
+  height: 25%;
+
+  background-image: url("imagenes/fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#descuento1{  /* se crea para el contenedor del 1 juego  */
+  width: 223.188px;
+  height: 205px;
+  margin-left: 5%;
+
+  float: left;
+}
+
+#descuento2{  /* se crea para el contenedor del 2 juego  */
+  width: 31%;
+  height: 75%;
+  margin-left: 5%;
+  border-bottom: 5%;
+  float: left;
+}
+
+#descuento3{  /* se crea para el contenedor del 3 juego */
+  width: 31%;
+  height: 75%;
+
+  float:left;
+}
+
+#logo2{  /* se crea para el icono de descuento que se encuentra arriba */
+  width:90px;
+  height:50px;
+  float: right;
+}
+
+#imagenD1{  /* se crea para la imagen del primer juego */
+  width: 84%;
+  height: 50%;
+  margin-left: 8%;
+  background-image: url("imagenes/juego1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#imagenD2{ /* se coloca para la imagen del 2 juego */
+  width: 84%;
+  height: 65%;
+  margin-left: 8%;
+  background-image: url("imagenes/juego2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+#informacionD2{ /* se coloca la informacion del 2 juego*/
+  width: 50%;
+  height: 50%;
+  padding-left: 23%;
+
+}
+#imagenD3{  /*Se crea el tamaño y colocar la imagen del 2 juego*/
+  width: 84%;
+  height: 65%;
+  margin-left: 8%;
+  background-image: url("imagenes/juego3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#informacionD3{ /*se coloca la informacion del 3 juego*/
+  width: 50%;
+  height: 50%;
+  padding-left: 23%;
+
+}
+
+#contenedorP{   /*se crea una imagen de fondo*/
+  
+
+  background-image: url("imagenes/fondo.jpg")
+}
+/*se cre un logo al final para ir a facebook*/
+#logoF{
+  width: 50px;
+  height: 50px;
+  float:right;
+
+}
